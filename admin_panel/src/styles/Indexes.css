@@ -1,0 +1,15 @@
+.index-wrapper {
+    display:flex;
+    flex-direction: column;
+    height:100%;
+    gap:1rem;
+}
+
+.editor {
+    height:90%;
+    flex:1;
+}
+.index-controls {
+    padding:1rem;
+    justify-content: space-between;
+}

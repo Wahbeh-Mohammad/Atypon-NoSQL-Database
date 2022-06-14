@@ -1,0 +1,22 @@
+.users-controls {
+    display:grid;
+    grid-template-columns: 15% 85%;
+    height:100%;
+}
+
+.body {
+    padding:1rem;
+}
+
+.overflow-scroll {
+    overflow-y: scroll;
+}
+
+.create-user {
+    background-color: #fff;
+    padding: 1rem;   
+}
+
+.main-form {
+    width:25%;
+}

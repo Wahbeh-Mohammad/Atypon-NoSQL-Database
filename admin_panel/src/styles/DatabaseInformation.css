@@ -1,0 +1,24 @@
+.db-information {
+    min-height: 100%;
+    min-width: 100%;
+    display:flex;
+    flex-direction: column;
+}
+
+.view-controls {
+    background-color: white;
+    padding:0rem 0.5rem;
+}
+
+.section {
+    padding:1rem;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    max-height: 49.25rem;
+}
+
+.section-col {
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+}

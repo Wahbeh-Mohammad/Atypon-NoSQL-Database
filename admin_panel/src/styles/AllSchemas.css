@@ -1,0 +1,44 @@
+.all-schemas {
+    display:flex;
+    flex-direction: column;
+    flex:1;
+}
+
+.schema-controls {
+    background:#fff;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding:0.15rem 1rem;
+}
+
+.schema-details {
+    flex:1;
+    display:grid;
+    grid-template-columns: 20% 80%;
+    height:100%;
+}
+
+.schema-interaction-controls {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #fff;
+}
+
+.connected-to {
+    padding:1rem;
+}
+
+.schema-view-details {
+    height:100%;
+}
+
+.small-width {
+    width:50%;
+}
+
+.part {
+    padding:1rem;
+}

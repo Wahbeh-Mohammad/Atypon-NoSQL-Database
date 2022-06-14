@@ -1,0 +1,16 @@
+.login-wrapper {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    width:100%;
+}
+
+.login {
+    padding:2.5rem;
+    justify-content: center;
+    align-items: center;
+    max-width: 18%;
+    word-wrap: break-word;
+}

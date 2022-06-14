@@ -1,0 +1,48 @@
+.dashboard {
+    width:100%;
+    height:100%;
+    display:grid;
+    grid-template-rows: max-content auto;
+}
+
+.logout {
+    display:flex;flex-direction: row;
+    justify-content: flex-end;align-items: center;
+}
+
+.links {
+    flex:1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display:flex;
+    flex-direction: column;
+}
+
+.sub-header-1 {
+    display:grid;
+    grid-template-columns: 15% 70% 15%;
+    padding:0.5rem 1rem;
+}
+
+.sub-header-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:0.15rem 1rem;
+}
+
+.create-database-wrapper {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
+
+.main-body {
+    background: #f0f0f0;
+}
