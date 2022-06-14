@@ -1,0 +1,29 @@
+version: "3.3"
+services:
+    admincontroller:
+        build: ./admin_controller
+        ports:
+            - "8000:8000"
+        volumes:
+            - type: bind
+              source: ./FileSystem/Data
+              target: /app/Data
+    adminpanel:
+        build: ./admin_panel
+        ports:
+            - "3000:3000"
+    readcontroller:
+        build: ./read_controller
+        volumes:
+            - type: bind
+              source: ./FileSystem/Data
+              target: /app/Data
+              read_only: true
+    nginx: 
+        image: nginx:latest
+        volumes:
+            - ./lb_conf:/etc/nginx/conf.d
+        depends_on:
+            - readcontroller
+        ports:
+            - "8001:8001"
