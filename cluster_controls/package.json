@@ -1,0 +1,16 @@
+{
+  "name": "container_discovery",
+  "version": "1.0.0",
+  "description": "Used to discover ips of containers that are children of read_controller images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  }
+}
