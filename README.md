@@ -1,6 +1,6 @@
 # Atypon-NoSQL-Database
 
-This is my implementation of the NoSQL Database Capstone
+This is my implementation of the NoSQL Database Capstone Project
 
 ---
 # Starting the system
